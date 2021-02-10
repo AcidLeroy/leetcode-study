@@ -1,8 +1,7 @@
 # Maximum Depth of a Binary Tree
 The easiest way to solve this problem is to use a recursive strategy. We need to keep track of what level we are currently at and if it is the maximum 
 
-## Recursive strategy
-
+## Recursive strategy (depth first) 
 ```java
 class Solution {
     public int depth(TreeNode root, int currentLevel){
@@ -21,6 +20,48 @@ class Solution {
     public int maxDepth(TreeNode root) {
         // Call separate function with a starting depth of 0; 
         return depth(root, 0);  
+    }
+}
+```
+
+## Stack strategy (depth first, just for fun)
+In this example, I demonsrate how to solve the problem using a stack instead of the recursive strategy: 
+
+```java
+class Solution {
+
+    boolean isLeaf(TreeNode node) {
+        return node.right == null && node.left == null; 
+    }
+    public int maxDepth(TreeNode root) {
+        if (root == null) return 0; 
+        Stack<TreeNode> st=  new Stack<TreeNode>(); 
+        st.addElement(root);
+        
+        int max = 0; 
+        HashMap<TreeNode, Integer>  m = new HashMap<TreeNode, Integer>(); 
+        
+        m.put(root, 1); 
+        
+        while(!st.empty()){
+            TreeNode n = st.pop();
+            Integer currentLevel = m.get(n); 
+            
+            if (isLeaf(n)){
+                // Check max and update
+                if (currentLevel > max) max = currentLevel; 
+                continue;
+            }  
+            if (n.right != null) {
+                m.put(n.right, currentLevel+1); 
+                st.addElement(n.right);
+            }
+            if (n.left != null) {
+                m.put(n.left, currentLevel + 1); 
+                st.addElement(n.left);
+            }
+        }
+        return max; 
     }
 }
 ```
