@@ -39,14 +39,20 @@ class Solution {
         st.addElement(root);
         
         int max = 0; 
+        // The reason I use a hashmap here is because I need to keep track of the current level I am at. 
         HashMap<TreeNode, Integer>  m = new HashMap<TreeNode, Integer>(); 
         
+        // Initialize the stack, with the level value. 
         m.put(root, 1); 
         
         while(!st.empty()){
+            // Pop a node off of the stack
             TreeNode n = st.pop();
+            // Get what level the curren tnode is at. 
             Integer currentLevel = m.get(n); 
             
+            // If we are at a leaf node, i.e. we don't have any children nodes, then we either 
+            // update the max or not, then we pop the next thing off the stack. 
             if (isLeaf(n)){
                 // Check max and update
                 if (currentLevel > max) max = currentLevel; 
