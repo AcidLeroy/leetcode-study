@@ -2,7 +2,7 @@
 List of top 75 Leetcode questions to study very well
 
 ## Array
-- [ ] - Two Sum ([Problem](https://leetcode.com/problems/two-sum/) / [Solution]())
+- [x] - Two Sum ([Problem](https://leetcode.com/problems/two-sum/) / [Solution](two-sum.md))
 
 ## Dynamic programming
  - [x] - Climbing Stairs ([Problem](https://leetcode.com/problems/climbing-stairs/) / [Solution](climbing-stairs.md))
