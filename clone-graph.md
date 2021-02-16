@@ -47,3 +47,33 @@ class Solution {
     }
 }
 ```
+
+## Depth first search
+This code is basically identical, other than it uses a stack instead of a queue
+```java
+class Solution {
+    public Node cloneGraph(Node node) {
+        if (node == null) return null; 
+        Deque<Node> stack = new LinkedList<Node>(); 
+        HashMap<Node, Node> copies = new HashMap<Node, Node>(); 
+        
+        stack.addFirst(node);
+        Node rootCopy = new Node(node.val); 
+        copies.put(node, rootCopy); 
+        
+        while(stack.size() > 0) {
+            Node curr = stack.removeFirst(); 
+            for (Node neighbor : curr.neighbors){
+                if (!copies.containsKey(neighbor)){
+                    // Neighbor hasn't been visited
+                    stack.addFirst(neighbor); 
+                    copies.put(neighbor, new Node(neighbor.val)); 
+                }
+                copies.get(curr).neighbors.add(copies.get(neighbor)); 
+            }
+        }
+        
+        return rootCopy; 
+    }
+}
+```
