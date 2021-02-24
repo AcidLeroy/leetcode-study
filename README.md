@@ -11,6 +11,6 @@ List of top 75 Leetcode questions to study very well
 - [x] - Clone a graph ([Problem](https://leetcode.com/problems/clone-graph/) / [Solution](clone-graph.md)) 
 
 ## String 
-- [ ] - Longest substring without repeating characters. ([Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) / [Solution](longest-substring.md)) 
+- [x] - Longest substring without repeating characters. ([Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) / [Solution](longest-substring.md)) 
 ## Tree
  - [x] - Maximum Depth of a Binary Tree ([Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/) / [Solution](tree-max-depth.md))
