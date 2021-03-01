@@ -13,6 +13,9 @@ List of top 75 Leetcode questions to study very well
 ## Graph
 - [x] - Clone a graph ([Problem](https://leetcode.com/problems/clone-graph/) / [Solution](clone-graph.md)) 
 
+## Matrix
+- [ ] - Set Matrix Zeroes ([Problem](https://leetcode.com/problems/set-matrix-zeroes/solution/) \ [Solution](set-matrix-zeroes.md))
+
 ## String 
 - [x] - Longest substring without repeating characters. ([Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) / [Solution](longest-substring.md)) 
 ## Tree
