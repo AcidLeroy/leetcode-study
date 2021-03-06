@@ -10,6 +10,7 @@ List of top 75 Leetcode questions to study very well
 ## Dynamic programming
  - [x] - Climbing Stairs ([Problem](https://leetcode.com/problems/climbing-stairs/) / [Solution](climbing-stairs.md))
  - [ ] - House Robber ([Problem](https://leetcode.com/problems/house-robber/) / [Solution](house-robber.md))
+ - [ ] - Unique Paths ([Problem](https://leetcode.com/problems/unique-paths/) / [Solution](unique-paths.md)) 
 ## Graph
 - [x] - Clone a graph ([Problem](https://leetcode.com/problems/clone-graph/) / [Solution](clone-graph.md)) 
 
