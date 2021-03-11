@@ -21,5 +21,6 @@ List of top 75 Leetcode questions to study very well
 
 ## String 
 - [x] - Longest substring without repeating characters. ([Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) / [Solution](longest-substring.md)) 
+- [x] - Valid Anagram. ([Problem](https://leetcode.com/problems/valid-anagram/) / [Solution](valid-anagram.md))
 ## Tree
  - [x] - Maximum Depth of a Binary Tree ([Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/) / [Solution](tree-max-depth.md))
