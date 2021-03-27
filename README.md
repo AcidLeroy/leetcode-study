@@ -24,10 +24,12 @@ List of top 75 Leetcode questions to study very well
 - [x] - Merge two sorted lists ([Problem](https://leetcode.com/problems/merge-two-sorted-lists/) / [Solution](merge-two-sorted-lists.md))
 
 ## Matrix
-- [ ] - Set Matrix Zeroes ([Problem](https://leetcode.com/problems/set-matrix-zeroes/solution/) \ [Solution](set-matrix-zeroes.md))
+- [x] - Set Matrix Zeroes ([Problem](https://leetcode.com/problems/set-matrix-zeroes/solution/) \ [Solution](set-matrix-zeroes.md))
 
 ## String 
 - [x] - Longest substring without repeating characters. ([Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) / [Solution](longest-substring.md)) 
 - [x] - Valid Anagram. ([Problem](https://leetcode.com/problems/valid-anagram/) / [Solution](valid-anagram.md))
+- [ ] 
 ## Tree
  - [x] - Maximum Depth of a Binary Tree ([Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/) / [Solution](tree-max-depth.md))
+ - [x] - Implement a trie (prefix tree) ([Problem](https://leetcode.com/problems/implement-trie-prefix-tree/) / [Solution](implement-trie.md))
