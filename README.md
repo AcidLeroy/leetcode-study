@@ -16,7 +16,7 @@ List of top 75 Leetcode questions to study very well
 ## Graph
 - [x] - Clone a graph ([Problem](https://leetcode.com/problems/clone-graph/) / [Solution](clone-graph.md)) 
 - [x] - Count islands ([Problem](https://leetcode.com/problems/number-of-islands/) / [Solution](number-of-islands.md))
-- [ ] - Course schedule ([Problem](https://leetcode.com/problems/course-schedule/) / [Solution](course-schedule.md))
+- [x] - Course schedule ([Problem](https://leetcode.com/problems/course-schedule/) / [Solution](course-schedule.md))
 
 ## Interval 
 - [x] - Insert interval ([Problem](https://leetcode.com/problems/insert-interval/) / [Solution](insert-interval.md))
