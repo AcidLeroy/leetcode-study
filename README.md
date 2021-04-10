@@ -34,3 +34,6 @@ List of top 75 Leetcode questions to study very well
 ## Tree
  - [x] - Maximum Depth of a Binary Tree ([Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/) / [Solution](tree-max-depth.md))
  - [x] - Implement a trie (prefix tree) ([Problem](https://leetcode.com/problems/implement-trie-prefix-tree/) / [Solution](implement-trie.md))
+
+## Heap
+- [x] - Implement a heap ([Solution](implement-heap.md))
