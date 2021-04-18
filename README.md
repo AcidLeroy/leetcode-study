@@ -27,6 +27,7 @@ List of top 75 Leetcode questions to study very well
 
 ## Matrix
 - [x] - Set Matrix Zeroes ([Problem](https://leetcode.com/problems/set-matrix-zeroes/solution/) \ [Solution](set-matrix-zeroes.md))
+- [x] - Rotate a matrix in-place ([Problem](https://leetcode.com/problems/rotate-image/) /  [Solution](rotate-matrix.md))
 
 ## String 
 - [x] - Longest substring without repeating characters. ([Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/) / [Solution](longest-substring.md)) 
