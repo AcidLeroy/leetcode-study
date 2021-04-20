@@ -44,4 +44,38 @@ var reverseList = function(head) {
 
 
 ## Recursive solution
+Once you understand how to move the nodes around, you can simply the solution by doing it recursively. My solution is below: 
 
+```javascript
+function recurse(prev, curr){
+    
+    if (curr === null) return prev; 
+    
+    const temp = curr.next; 
+    curr.next = prev; 
+    prev = curr; 
+    curr = temp; 
+    return recurse(prev, curr); 
+    
+}
+
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var reverseList = function(head) {
+    if (head === null) return null; 
+    let prev = head; 
+    let curr = head.next; 
+    prev.next = null; 
+    return recurse(prev, curr)
+    
+};
+```
