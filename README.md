@@ -24,6 +24,7 @@ List of top 75 Leetcode questions to study very well
 
 ## Linked List
 - [x] - Merge two sorted lists ([Problem](https://leetcode.com/problems/merge-two-sorted-lists/) / [Solution](merge-two-sorted-lists.md))
+- [x] - Reverse a linked list ([Problem](https://leetcode.com/problems/reverse-linked-list/) / [Solution](reverse-linked-list.md)) 
 
 ## Matrix
 - [x] - Set Matrix Zeroes ([Problem](https://leetcode.com/problems/set-matrix-zeroes/solution/) \ [Solution](set-matrix-zeroes.md))
