@@ -3,6 +3,7 @@ List of top 75 Leetcode questions to study very well
 
 ## Array
 - [x] - Two Sum ([Problem](https://leetcode.com/problems/two-sum/) / [Solution](two-sum.md))
+- [x] - Container with most water ([Problem](https://leetcode.com/problems/container-with-most-water/) / [Solution](contiainer-with-most-water.md))
 
 ## Binary
 - [x] - Sum of two integers([Problem](https://leetcode.com/problems/sum-of-two-integers/) / [Solution](sum-two-integers.md))
